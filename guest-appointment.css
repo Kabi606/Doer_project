@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+.hero{
+
+	background-color: white;
+
+	
+}
+
+
+nav{
+
+	display: flex;
+	align-items: center;
+	justify-content:;
+	padding-left: 3%;
+
+}
+.logo2 {
+	font-size: 25px;
+	color: black;
+	letter-spacing: 1px;
+	cursor: pointer;
+	background-color: ;
+	padding-right: 5%;
+	padding-left: 5%;
+	height: 100px;
+	width: 220px;
+
+}
+
+
+
+
+span{
+	color: tomato;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding:10px 5px;
+	position: relative;
+	
+}
+
+.hero ul li::after{
+	content: ' ';
+	background: green;
+	height: 3px;
+	width: 0%;
+	position: absolute;
+	left: 0;
+	transition: 0.5s;
+	bottom: -2px;
+	
+
+
+
+}
+.hero ul li:hover::after{
+  width: 100%;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: gray;
+	font-weight: bold;
+	text-transform: capitalize;
+	
+	padding: 5px 10px;
+	border-radius: 12px;
+
+    
+	
+}
+
+ul li a:hover{
+	color: black;
+	transition: .4s;
+	
+}
+
+.btn1{
+	text-decoration: none;
+	color: white;
+	background-color: tomato;
+	padding: 20px 30px;
+	border-radius: 15px;
+	margin-right: 10px;
+	margin-left: 15px;
+	transition: transform .4s;
+
+  }
+.btn1:hover{
+	color: black;
+	background-color: green;
+	transform: scale(1.2);
+}
+
+
+.sub-menu-1{
+  	
+ 								display: none;	
+ 									
+}
+  ul li:hover .sub-menu-1 {
+  	display: block;
+  	position: absolute;
+              		
+
+}
+
+   .sub-menu-1 ul{
+   	display: block;
+   	margin: 10px;
+   	
+               
+                
+  }
+  .sub-menu-1 ul li{
+  	width: 150px;
+  	padding: 10px;
+  	border-bottom: 1px solid green;
+  	background: transparent;
+  	border-radius: 0;
+  	text-align: left;
+  	display: block;
+
+  	 
+  }
+
+
+ 
+ .sub-menu-1 ul li a:hover{
+ 	
+
+ }
+
+
+.image2 img{
+	height: ;
+	width: 1350px;
+}
